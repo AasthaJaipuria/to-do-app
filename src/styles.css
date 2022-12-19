@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #abd9df;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+.App {
+  width: 400px;
+}
+
+.todo {
+  background: #003060;
+  min-width: 100%;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 3px;
+}
+.input {
+  border: none;
+  background: transparent;
+  height: 30px;
+  float: left;
+  padding: 5px;
+  outline: none;
+  width: 60%;
+  color: #add8e680;
+  font-size: 17px;
+}
+
+.input:focus {
+  border: none;
+}
+::placeholder {
+  color: #add8e680;
+}
+
+.todo_addtask_input {
+  margin-top: 0.5rem;
+}
+
+.todo_addtask_text {
+  color: #add8e6;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.addtask_button {
+  float: right;
+  padding: 0.3rem 0.5rem;
+  border-radius: 1px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #0dbab1;
+  background: #0dbab1;
+  font-size: 17px;
+}
+
+.list {
+  list-style-type: none;
+}
+.list_item {
+  background: #00306060;
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0.5rem -2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.list li input[type="checkbox"] {
+  height: 0;
+  width: 0;
+}
+.list li input[type="checkbox"] {
+  margin: 0 0.5rem 0 0;
+  height: 20px;
+  width: 20px;
+  background: #eee;
+  cursor: pointer;
+}
+.list li input[type="checkbox"]:hover {
+  background: red;
+}
+.dustbin {
+  cursor: pointer;
+}
