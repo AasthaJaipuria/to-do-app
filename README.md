@@ -6,13 +6,10 @@
 
 
 ## **2. Description**
+Enter a task. Mark it as done. Delete it if want to delete.
 
-
-## **3. Input / Output**
-
-
-
-## **4. Live link**
+## **3. Live link**
 https://srylnt.csb.app/
 
-## **5. Screenshot of the Interface**
+## **4. Screenshot of the Interface**
+![Screenshot (93)](https://user-images.githubusercontent.com/70774035/209479336-c9c68fcb-562e-4c80-abcd-9f111f9913a6.png)
